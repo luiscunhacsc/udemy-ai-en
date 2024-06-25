@@ -1,5 +1,5 @@
 # Nota: No caso de erro de importação de módulos, instale-os com o comando:
-# pip install pandas yfinance pandas_ta fredapi python-dotenv
+# %pip install -q pandas yfinance pandas_ta fredapi python-dotenv
 
 import pandas as pd
 import yfinance as yf
