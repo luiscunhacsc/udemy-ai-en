@@ -1,15 +1,8 @@
-# Nota: No caso de erro de importação de módulos, instale-os com o comando:
+# Note: In case of module import error, install them with the command:
 # %pip install -q pandas yfinance pandas_ta fredapi python-dotenv
 
-import pandas as pd
-import yfinance as yf
-import pandas_ta as ta
-from fredapi import Fred
-from datetime import datetime, timedelta
-import os
-from dotenv import load_dotenv
 
-load_dotenv()  # Carrega as variáveis de ambiente do arquivo .env (chave para a API do FRED)
+load_dotenv()  # Load environment variables from the .env file (API key for FRED)
 
 # Set your FRED API key
 fred_api_key = os.getenv('FRED_API_KEY')

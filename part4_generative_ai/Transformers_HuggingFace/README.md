@@ -1,35 +1,34 @@
-
 # README
 
-Este repositório contém três notebooks que exploram diferentes modelos de geração de linguagem baseados em redes neurais profundas. Através desses exemplos, buscamos entender os princípios fundamentais que sustentam modelos maiores e mais complexos como o ChatGPT. Estamos utilizando a biblioteca e os recursos da plataforma HuggingFace para facilitar o acesso e a manipulação desses modelos.
+This repository contains three notebooks that explore different language generation models based on deep neural networks. Through these examples, we seek to understand the fundamental principles that underpin larger and more complex models like ChatGPT. We are using the library and resources from the HuggingFace platform to facilitate access and manipulation of these models.
 
-## Notebooks Disponíveis
+## Available Notebooks
 
 1. **EleutherAI_gpt-neo-2.7B.ipynb**
-   - **Descrição**: Este notebook utiliza o modelo GPT-Neo com 2.7 bilhões de parâmetros, desenvolvido pela EleutherAI. O GPT-Neo é uma implementação aberta e acessível de um modelo de linguagem semelhante ao GPT-3 da OpenAI. Ele é capaz de gerar texto coerente e relevante baseado em entradas fornecidas pelo usuário.
-   - **Objetivo**: Demonstrar a capacidade do GPT-Neo de gerar texto de alta qualidade e explorar as aplicações práticas deste modelo em tarefas de processamento de linguagem natural (NLP).
+   - **Description**: This notebook uses the GPT-Neo model with 2.7 billion parameters, developed by EleutherAI. GPT-Neo is an open and accessible implementation of a language model similar to OpenAI's GPT-3. It is capable of generating coherent and relevant text based on user-provided inputs.
+   - **Objective**: Demonstrate the ability of GPT-Neo to generate high-quality text and explore the practical applications of this model in natural language processing (NLP) tasks.
 
 2. **GPT2.ipynb**
-   - **Descrição**: Este notebook explora o modelo GPT-2, um dos primeiros modelos de grande escala desenvolvido pela OpenAI. Com diferentes tamanhos disponíveis (124M, 355M, 774M, 1.5B), o GPT-2 revolucionou o campo de NLP ao mostrar que modelos treinados com grandes quantidades de dados podem gerar texto com um nível de coerência impressionante.
-   - **Objetivo**: Investigar as capacidades do GPT-2 em gerar texto e compreender como o aumento no número de parâmetros impacta a performance do modelo.
+   - **Description**: This notebook explores the GPT-2 model, one of the first large-scale models developed by OpenAI. With different sizes available (124M, 355M, 774M, 1.5B), GPT-2 revolutionized the field of NLP by showing that models trained with large amounts of data can generate text with an impressive level of coherence.
+   - **Objective**: Investigate the capabilities of GPT-2 in generating text and understand how the increase in the number of parameters impacts the model's performance.
 
 3. **pierrreguillou_gpt2-small-portuguese.ipynb**
-   - **Descrição**: Este notebook utiliza uma versão adaptada do GPT-2 para a língua portuguesa, desenvolvida por Pierre Guillou. Esta adaptação permite que o modelo gere texto em português com uma qualidade comparável aos modelos em inglês, demonstrando a versatilidade e a aplicabilidade de tais modelos em diferentes idiomas.
-   - **Objetivo**: Avaliar a performance do GPT-2 em português e entender os desafios e benefícios de adaptar modelos de linguagem para diferentes idiomas.
+   - **Description**: This notebook uses an adapted version of GPT-2 for the Portuguese language, developed by Pierre Guillou. This adaptation allows the model to generate text in Portuguese with a quality comparable to English models, demonstrating the versatility and applicability of such models in different languages.
+   - **Objective**: Evaluate the performance of GPT-2 in Portuguese and understand the challenges and benefits of adapting language models to different languages.
 
-## Recursos Utilizados
+## Resources Used
 
-- **Biblioteca HuggingFace**: Estamos utilizando a biblioteca `transformers` da HuggingFace, que fornece uma interface simples e poderosa para o uso de modelos de linguagem pré-treinados. Esta biblioteca facilita o acesso a uma ampla gama de modelos e nos permite realizar ajustes finos e avaliações detalhadas de suas capacidades.
-- **Plataforma HuggingFace**: Além da biblioteca, a plataforma HuggingFace oferece uma infraestrutura robusta para o compartilhamento e a execução de modelos, permitindo a colaboração e a reprodução de experimentos de maneira eficiente.
+- **HuggingFace Library**: We are using the `transformers` library from HuggingFace, which provides a simple and powerful interface for using pre-trained language models. This library facilitates access to a wide range of models and allows us to fine-tune and perform detailed evaluations of their capabilities.
+- **HuggingFace Platform**: In addition to the library, the HuggingFace platform offers a robust infrastructure for sharing and running models, enabling efficient collaboration and reproducibility of experiments.
 
-## Objetivos Educacionais
+## Educational Objectives
 
-O principal objetivo destes notebooks é fornecer uma base sólida sobre como os modelos de geração de linguagem funcionam e como eles podem ser aplicados em diversos contextos. Ao explorar estes exemplos, os alunos serão capazes de:
-- Compreender os conceitos básicos de redes neurais profundas aplicadas à geração de linguagem.
-- Avaliar as diferenças entre modelos de diferentes tamanhos e complexidades.
-- Aplicar modelos pré-treinados em tarefas práticas de NLP.
-- Adaptar e ajustar modelos de linguagem para diferentes idiomas e contextos.
+The main objective of these notebooks is to provide a solid foundation on how language generation models work and how they can be applied in various contexts. By exploring these examples, students will be able to:
+- Understand the basic concepts of deep neural networks applied to language generation.
+- Evaluate the differences between models of different sizes and complexities.
+- Apply pre-trained models to practical NLP tasks.
+- Adapt and fine-tune language models for different languages and contexts.
 
-Estes conhecimentos são fundamentais para o entendimento e a utilização de modelos maiores, como o ChatGPT, permitindo que os alunos avancem em suas pesquisas e aplicações práticas no campo da inteligência artificial.
+This knowledge is essential for understanding and using larger models like ChatGPT, allowing students to advance in their research and practical applications in the field of artificial intelligence.
 
-Esperamos que este repositório seja uma ferramenta valiosa no aprendizado sobre modelos de linguagem e inspire a exploração contínua neste campo dinâmico e em rápida evolução.
+We hope that this repository will be a valuable tool in learning about language models and inspire continued exploration in this dynamic and rapidly evolving field.
