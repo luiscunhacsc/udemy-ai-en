@@ -1,6 +1,9 @@
-# Note: In case of module import error, install them with the command:
-# %pip install -q pandas yfinance pandas_ta fredapi python-dotenv
+# Description: This script fetches data from Yahoo Finance and FRED, calculates technical indicators, and saves the data to a CSV file.
+# It is useful only to update the data file for the time series analysis.
+# I will update the datafile from time to time, but if you need to update it yourself, you can run this script.
+# Note: You need to have a .env file with the FRED API key to run this script.
 
+# %pip install -q pandas yfinance pandas_ta fredapi python-dotenv
 
 load_dotenv()  # Load environment variables from the .env file (API key for FRED)
 
