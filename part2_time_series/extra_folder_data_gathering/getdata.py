@@ -13,8 +13,6 @@ from fredapi import Fred
 import yfinance as yf
 from dotenv import load_dotenv
 
-
-
 load_dotenv()  # Load environment variables from the .env file (API key for FRED)
 
 # Set your FRED API key
@@ -23,7 +21,7 @@ fred = Fred(api_key=fred_api_key)
 
 # Define date range (yyyy-mm-dd format)
 user_start_date = "1990-01-02"
-end_date = "2024-07-01"
+end_date = "2024-06-27"
 
 # Calculate the pre-start date for technical indicators to initialize properly
 # Assuming 90 days are enough to populate the required data for the indicators
