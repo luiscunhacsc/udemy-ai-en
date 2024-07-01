@@ -5,6 +5,16 @@
 
 # %pip install -q pandas yfinance pandas_ta fredapi python-dotenv
 
+import os
+from datetime import datetime, timedelta
+import pandas as pd
+import pandas_ta as ta
+from fredapi import Fred
+import yfinance as yf
+from dotenv import load_dotenv
+
+
+
 load_dotenv()  # Load environment variables from the .env file (API key for FRED)
 
 # Set your FRED API key
@@ -13,7 +23,7 @@ fred = Fred(api_key=fred_api_key)
 
 # Define date range (yyyy-mm-dd format)
 user_start_date = "1990-01-02"
-end_date = "2024-04-26"
+end_date = "2024-07-01"
 
 # Calculate the pre-start date for technical indicators to initialize properly
 # Assuming 90 days are enough to populate the required data for the indicators
